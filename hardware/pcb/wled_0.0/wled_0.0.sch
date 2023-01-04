@@ -1,0 +1,384 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Linear:AMS1117-3.3 U1
+U 1 1 63B4C767
+P 1850 1800
+F 0 "U1" H 1850 2042 50  0000 C CNN
+F 1 "AMS1117-3.3" H 1850 1951 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 1850 2000 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 1950 1550 50  0001 C CNN
+	1    1850 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q1
+U 1 1 63B4DBC0
+P 5800 2800
+F 0 "Q1" H 6004 2846 50  0000 L CNN
+F 1 "BSS138" H 6004 2755 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6000 2725 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 5800 2800 50  0001 L CNN
+	1    5800 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 63B50F76
+P 5150 3200
+F 0 "R3" H 5220 3246 50  0000 L CNN
+F 1 "4k7" H 5220 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5080 3200 50  0001 C CNN
+F 3 "~" H 5150 3200 50  0001 C CNN
+	1    5150 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 63B515F8
+P 3050 2050
+F 0 "R2" H 3120 2096 50  0000 L CNN
+F 1 "4k7" H 3120 2005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2980 2050 50  0001 C CNN
+F 3 "~" H 3050 2050 50  0001 C CNN
+	1    3050 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 63B5241C
+P 2850 2050
+F 0 "R1" H 2920 2096 50  0000 L CNN
+F 1 "4k7" H 2920 2005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2780 2050 50  0001 C CNN
+F 3 "~" H 2850 2050 50  0001 C CNN
+	1    2850 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 63B5278A
+P 6100 2650
+F 0 "R5" H 6170 2696 50  0000 L CNN
+F 1 "10k" H 6170 2605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6030 2650 50  0001 C CNN
+F 3 "~" H 6100 2650 50  0001 C CNN
+	1    6100 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 63B52F7E
+P 5500 2650
+F 0 "R4" H 5570 2696 50  0000 L CNN
+F 1 "10k" H 5570 2605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5430 2650 50  0001 C CNN
+F 3 "~" H 5500 2650 50  0001 C CNN
+	1    5500 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 63B5360C
+P 1350 2000
+F 0 "C1" H 1465 2046 50  0000 L CNN
+F 1 "100" H 1465 1955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1388 1850 50  0001 C CNN
+F 3 "~" H 1350 2000 50  0001 C CNN
+	1    1350 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 63B53F6E
+P 2300 2000
+F 0 "C2" H 2415 2046 50  0000 L CNN
+F 1 "100" H 2415 1955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2338 1850 50  0001 C CNN
+F 3 "~" H 2300 2000 50  0001 C CNN
+	1    2300 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 63B5450B
+P 2600 2000
+F 0 "C3" H 2715 2046 50  0000 L CNN
+F 1 "100" H 2715 1955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2638 1850 50  0001 C CNN
+F 3 "~" H 2600 2000 50  0001 C CNN
+	1    2600 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J1
+U 1 1 63B638D6
+P 1000 1800
+F 0 "J1" H 892 1985 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 892 1894 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1000 1800 50  0001 C CNN
+F 3 "~" H 1000 1800 50  0001 C CNN
+	1    1000 1800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J2
+U 1 1 63B65C9C
+P 6850 1900
+F 0 "J2" H 6878 1926 50  0000 L CNN
+F 1 "Conn_01x03_Female" H 6878 1835 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6850 1900 50  0001 C CNN
+F 3 "~" H 6850 1900 50  0001 C CNN
+	1    6850 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L esp8266:ESP-12 U2
+U 1 1 63B4B7A1
+P 4050 2700
+F 0 "U2" H 4050 3781 50  0000 C CNN
+F 1 "ESP-12" H 4050 3690 50  0000 C CNN
+F 2 "esp8266:ESP-12E_SMD" H 4050 2700 50  0001 C CNN
+F 3 "http://l0l.org.uk/2014/12/esp8266-modules-hardware-guide-gotta-catch-em-all/" H 4050 2700 50  0001 C CNN
+	1    4050 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 1850 1350 1800
+Connection ~ 1350 1800
+Wire Wire Line
+	1350 1800 1550 1800
+$Comp
+L power:GND #PWR01
+U 1 1 63B807EF
+P 1200 2050
+F 0 "#PWR01" H 1200 1800 50  0001 C CNN
+F 1 "GND" H 1205 1877 50  0000 C CNN
+F 2 "" H 1200 2050 50  0001 C CNN
+F 3 "" H 1200 2050 50  0001 C CNN
+	1    1200 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 1800 2300 1800
+Wire Wire Line
+	2300 1850 2300 1800
+Connection ~ 2300 1800
+Wire Wire Line
+	2300 1800 2600 1800
+Wire Wire Line
+	2600 1850 2600 1800
+Connection ~ 2600 1800
+Wire Wire Line
+	2600 1800 2850 1800
+Wire Wire Line
+	2850 1800 2850 1900
+Connection ~ 2850 1800
+Wire Wire Line
+	2850 1800 3050 1800
+Wire Wire Line
+	3050 1800 3050 1900
+Connection ~ 3050 1800
+Wire Wire Line
+	3050 1800 4050 1800
+Wire Wire Line
+	3050 2200 3050 2400
+Wire Wire Line
+	3050 2400 3150 2400
+Wire Wire Line
+	2850 2200 2850 2600
+Wire Wire Line
+	2850 2600 3150 2600
+$Comp
+L power:GND #PWR03
+U 1 1 63B8768D
+P 1350 2250
+F 0 "#PWR03" H 1350 2000 50  0001 C CNN
+F 1 "GND" H 1355 2077 50  0000 C CNN
+F 2 "" H 1350 2250 50  0001 C CNN
+F 3 "" H 1350 2250 50  0001 C CNN
+	1    1350 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 63B88291
+P 1850 2150
+F 0 "#PWR04" H 1850 1900 50  0001 C CNN
+F 1 "GND" H 1855 1977 50  0000 C CNN
+F 2 "" H 1850 2150 50  0001 C CNN
+F 3 "" H 1850 2150 50  0001 C CNN
+	1    1850 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 63B886ED
+P 2300 2250
+F 0 "#PWR05" H 2300 2000 50  0001 C CNN
+F 1 "GND" H 2305 2077 50  0000 C CNN
+F 2 "" H 2300 2250 50  0001 C CNN
+F 3 "" H 2300 2250 50  0001 C CNN
+	1    2300 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 63B88BDE
+P 2600 2250
+F 0 "#PWR06" H 2600 2000 50  0001 C CNN
+F 1 "GND" H 2605 2077 50  0000 C CNN
+F 2 "" H 2600 2250 50  0001 C CNN
+F 3 "" H 2600 2250 50  0001 C CNN
+	1    2600 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 63B89087
+P 4050 3650
+F 0 "#PWR07" H 4050 3400 50  0001 C CNN
+F 1 "GND" H 4055 3477 50  0000 C CNN
+F 2 "" H 4050 3650 50  0001 C CNN
+F 3 "" H 4050 3650 50  0001 C CNN
+	1    4050 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 2150 1350 2250
+Wire Wire Line
+	1850 2100 1850 2150
+Wire Wire Line
+	2300 2150 2300 2250
+Wire Wire Line
+	2600 2150 2600 2250
+Wire Wire Line
+	4050 3600 4050 3650
+$Comp
+L power:GND #PWR08
+U 1 1 63B8B953
+P 5150 3450
+F 0 "#PWR08" H 5150 3200 50  0001 C CNN
+F 1 "GND" H 5155 3277 50  0000 C CNN
+F 2 "" H 5150 3450 50  0001 C CNN
+F 3 "" H 5150 3450 50  0001 C CNN
+	1    5150 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 3000 5150 3000
+Wire Wire Line
+	5150 3000 5150 3050
+Wire Wire Line
+	5150 3350 5150 3450
+Wire Wire Line
+	4950 2900 5500 2900
+Wire Wire Line
+	5500 2800 5500 2900
+Connection ~ 5500 2900
+Wire Wire Line
+	5500 2900 5600 2900
+Wire Wire Line
+	4050 1800 5500 1800
+Wire Wire Line
+	5500 1800 5500 2400
+Connection ~ 4050 1800
+Wire Wire Line
+	5800 2600 5800 2400
+Wire Wire Line
+	5800 2400 5500 2400
+Connection ~ 5500 2400
+Wire Wire Line
+	5500 2400 5500 2500
+$Comp
+L power:GND #PWR09
+U 1 1 63B9AC86
+P 6600 2150
+F 0 "#PWR09" H 6600 1900 50  0001 C CNN
+F 1 "GND" H 6605 1977 50  0000 C CNN
+F 2 "" H 6600 2150 50  0001 C CNN
+F 3 "" H 6600 2150 50  0001 C CNN
+	1    6600 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 2150 6600 2000
+Wire Wire Line
+	6600 2000 6650 2000
+Wire Wire Line
+	6000 2900 6100 2900
+Wire Wire Line
+	6100 2900 6100 2800
+Wire Wire Line
+	6100 2900 6350 2900
+Wire Wire Line
+	6350 2900 6350 1900
+Wire Wire Line
+	6350 1900 6650 1900
+Connection ~ 6100 2900
+Wire Wire Line
+	1350 1800 1350 1650
+Wire Wire Line
+	6650 1650 6650 1800
+Wire Wire Line
+	6100 2500 6100 1650
+Wire Wire Line
+	1350 1650 6100 1650
+Connection ~ 6100 1650
+Wire Wire Line
+	6100 1650 6650 1650
+$Comp
+L power:+5V #PWR02
+U 1 1 63BA0582
+P 1250 1750
+F 0 "#PWR02" H 1250 1600 50  0001 C CNN
+F 1 "+5V" H 1265 1923 50  0000 C CNN
+F 2 "" H 1250 1750 50  0001 C CNN
+F 3 "" H 1250 1750 50  0001 C CNN
+	1    1250 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 1750 1250 1800
+Wire Wire Line
+	1250 1800 1350 1800
+NoConn ~ 3150 2500
+NoConn ~ 3150 2700
+NoConn ~ 3150 2800
+NoConn ~ 3150 2900
+NoConn ~ 3150 3000
+NoConn ~ 4950 2400
+NoConn ~ 4950 2500
+NoConn ~ 4950 2600
+NoConn ~ 4950 2700
+NoConn ~ 4950 2800
+NoConn ~ 4050 1700
+Wire Wire Line
+	1200 1800 1250 1800
+Connection ~ 1250 1800
+Wire Wire Line
+	1200 1900 1200 2050
+Text Label 1050 1800 0    50   ~ 0
+vcc
+Text Label 1050 1900 0    50   ~ 0
+gnd
+Text Label 6700 1800 0    50   ~ 0
+vcc
+Text Label 6700 1900 0    50   ~ 0
+din
+Text Label 6700 2000 0    50   ~ 0
+gnd
+$EndSCHEMATC
