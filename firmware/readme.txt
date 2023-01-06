@@ -1,0 +1,1 @@
+esptool.py -p COM55 write_flash 0x0 WLED_0.14.0-b1_ESP8266.bin
