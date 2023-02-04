@@ -1,0 +1,4 @@
+[submodule "hardware/pcb/wled_0.0/kicad-ESP8266"]
+	path = hardware/pcb/wled_0.0/kicad-ESP8266
+	url = https://github.com/sghnsk/kicad-ESP8266.git
+	branch = master
