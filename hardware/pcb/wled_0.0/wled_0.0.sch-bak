@@ -129,7 +129,7 @@ U 1 1 63B638D6
 P 1000 1800
 F 0 "J1" H 892 1985 50  0000 C CNN
 F 1 "Conn_01x02_Female" H 892 1894 50  0000 C CNN
-F 2 "" H 1000 1800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1000 1800 50  0001 C CNN
 F 3 "~" H 1000 1800 50  0001 C CNN
 	1    1000 1800
 	-1   0    0    -1  
@@ -140,7 +140,7 @@ U 1 1 63B65C9C
 P 6850 1900
 F 0 "J2" H 6878 1926 50  0000 L CNN
 F 1 "Conn_01x03_Female" H 6878 1835 50  0000 L CNN
-F 2 "" H 6850 1900 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6850 1900 50  0001 C CNN
 F 3 "~" H 6850 1900 50  0001 C CNN
 	1    6850 1900
 	1    0    0    -1  
